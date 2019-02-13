@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch01-type-class-implicits/ch01-type-class-implicits.iml" filepath="$PROJECT_DIR$/ch01-type-class-implicits/ch01-type-class-implicits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch02-monoid-semigroups/ch02-monoid-semigroups.iml" filepath="$PROJECT_DIR$/ch02-monoid-semigroups/ch02-monoid-semigroups.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-functors/ch03-functors.iml" filepath="$PROJECT_DIR$/ch03-functors/ch03-functors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch04-monads/ch04-monads.iml" filepath="$PROJECT_DIR$/ch04-monads/ch04-monads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05-manod-transfers/ch05-manod-transfers.iml" filepath="$PROJECT_DIR$/ch05-manod-transfers/ch05-manod-transfers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch06-semigroupal-applicative/ch06-semigroupal-applicative.iml" filepath="$PROJECT_DIR$/ch06-semigroupal-applicative/ch06-semigroupal-applicative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch07-foldable-traverse/ch07-foldable-traverse.iml" filepath="$PROJECT_DIR$/ch07-foldable-traverse/ch07-foldable-traverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scala-with-cats.iml" filepath="$PROJECT_DIR$/scala-with-cats.iml" />
+    </modules>
+  </component>
+</project>

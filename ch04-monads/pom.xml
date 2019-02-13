@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch02-monoid-semigroups</artifactId>
+    <artifactId>ch04-monads</artifactId>
 
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>
@@ -57,4 +57,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

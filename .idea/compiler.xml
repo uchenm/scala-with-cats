@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch01-type-class-implicits" />
+        <module name="ch02-monoid-semigroups" />
+        <module name="ch03-functors" />
+        <module name="ch04-monads" />
+        <module name="ch05-manod-transfers" />
+        <module name="ch06-semigroupal-applicative" />
+        <module name="ch07-foldable-traverse" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch01-type-class-implicits" target="1.8" />
+      <module name="ch02-monoid-semigroups" target="1.8" />
+      <module name="ch03-functors" target="1.8" />
+      <module name="ch04-monads" target="1.8" />
+      <module name="ch05-manod-transfers" target="1.8" />
+      <module name="ch06-semigroupal-applicative" target="1.8" />
+      <module name="ch07-foldable-traverse" target="1.8" />
+      <module name="scala-with-cats" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

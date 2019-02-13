@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="ch04-monads,ch01-type-class-implicits,ch02-monoid-semigroups,ch03-functors,ch05-manod-transfers,ch07-foldable-traverse,ch06-semigroupal-applicative,scala-with-cats" />
+  </component>
+</project>

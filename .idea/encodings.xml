@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch01-type-class-implicits" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch02-monoid-semigroups" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-functors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04-monads" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch05-manod-transfers" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06-semigroupal-applicative" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07-foldable-traverse" charset="UTF-8" />
+  </component>
+</project>

@@ -11,9 +11,16 @@ object CatFunctorExamplesApp extends App {
 
  val list1 = List(1, 2, 3)
  // list1: List[Int] = List(1, 2, 3)
+  List(1, 2, 3).map(n => n + 1)
+  // res0: List[Int] = List(2, 3, 4)
 
  val list2 = Functor[List].map(list1)(_ * 2)
  // list2: List[Int] = List(2, 4, 6)
+  List(1, 2, 3).
+    map(n => n + 1).
+    map(n => n * 2).
+    map(n => n + "!")
+  // res1: List[String] = List(4!, 6!, 8!)
 
  val option1 = Option(123)
  // option1: Option[Int] = Some(123)
@@ -57,4 +64,13 @@ object CatFunctorExamplesApp extends App {
 
  println(doMath(List(1, 2, 3)))
  // res4: List[Int] = List(3, 4, 5)
+
+//  implicit class FunctorOps[F[_], A](src: F[A]) {
+//    def map[B](func: A => B)
+//              (implicit functor: Functor[F]): F[B] =
+//      functor.map(src)(func)
+//  }
+
+
+
 }

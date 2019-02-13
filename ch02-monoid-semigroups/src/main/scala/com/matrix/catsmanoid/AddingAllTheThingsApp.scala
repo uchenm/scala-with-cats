@@ -20,12 +20,12 @@ object AddingAllTheThingsApp extends App {
 
 
 
-  add(List(1, 2, 3))
+  println(add(List(1, 2, 3)))
   // res9: Int = 6
 
   import cats.instances.option._ // for Monoid
 
-  add(List(Some(1), None, Some(2), None, Some(3)))
+  println(add(List(Some(1), None, Some(2), None, Some(3))))
   // res10: Option[Int] = Some(6)
 
 

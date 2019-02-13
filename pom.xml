@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.matrix</groupId>
+    <groupId>com.craft</groupId>
     <artifactId>scala-with-cats</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -12,13 +12,18 @@
         <module>ch01-type-class-implicits</module>
         <module>ch02-monoid-semigroups</module>
         <module>ch03-functors</module>
+        <module>ch04-monads</module>
+        <module>ch05-manod-transfers</module>
+        <module>ch06-semigroupal-applicative</module>
+        <module>ch07-foldable-traverse</module>
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
-        <scala.version>2.12.7</scala.version>
+        <scala.version>2.12.8</scala.version>
         <scala.compactVersion>2.12</scala.compactVersion>
         <akka.version>2.5.18</akka.version>
+        <cats.version>1.6.0</cats.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -37,17 +42,30 @@
         <dependency>
             <groupId>org.typelevel</groupId>
             <artifactId>cats-core_2.12</artifactId>
-            <version>1.4.0</version>
+            <version>${cats.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.typelevel/cats-kernel -->
         <dependency>
             <groupId>org.typelevel</groupId>
             <artifactId>cats-kernel_2.12</artifactId>
-            <version>1.4.0</version>
+            <version>${cats.version}</version>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-effect_2.12</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-laws_2.12</artifactId>
+            <version>${cats.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-free_2.12</artifactId>
+            <version>${cats.version}</version>
+        </dependency>
     </dependencies>
 
 
